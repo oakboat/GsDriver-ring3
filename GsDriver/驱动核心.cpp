@@ -1,8 +1,8 @@
-#include "驱动核心.h"
+#include "椹卞姩鏍稿績.h"
 
 auto VariateInit()->NTSTATUS {
 
-	/*内核发包*/ {
+	/*鍐呮牳鍙戝寘*/ {
 
 		RtlZeroMemoryEx(&WSKProviderNpi, sizeof(WSKProviderNpi));
 
@@ -13,7 +13,7 @@ auto VariateInit()->NTSTATUS {
 		RtlZeroMemoryEx(&WSKClientDispatch, sizeof(WSKClientDispatch));
 	}
 
-	/*键鼠模拟*/ {
+	/*閿紶妯℃嫙*/ {
 
 		RtlZeroMemoryEx(&MouseDeviceObject, sizeof(MouseDeviceObject));
 

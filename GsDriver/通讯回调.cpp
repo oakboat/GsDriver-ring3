@@ -1,4 +1,4 @@
-﻿#include "驱动核心.h"
+#include "驱动核心.h"
 
 PHOOK_NOTIFY_BUFFER pRegisterNotifyHookBuffer = NULL;
 

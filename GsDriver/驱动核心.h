@@ -12,22 +12,22 @@
 #include <netioddk.h>
 #include <ntstrsafe.h>
 
-#include "资源文件\NativeEnums.h"
-#include "资源文件\NativeStructs.h"
+#include "璧勬簮鏂囦欢\NativeEnums.h"
+#include "璧勬簮鏂囦欢\NativeStructs.h"
 
-#include "全局变量.h"
-#include "自定声明.h"
-#include "注入代码.h"
-#include "导出函数.h"
-#include "反反作弊.h"
-#include "过机器码.h"
-#include "注入回调.h"
-#include "键鼠模拟.h"
-#include "句柄提权.h"
-#include "内核发包.h"
-#include "进程回调.h"
-#include "通讯回调.h"
+#include "鍏ㄥ眬鍙橀噺.h"
+#include "鑷畾澹版槑.h"
+#include "娉ㄥ叆浠ｇ爜.h"
+#include "瀵煎嚭鍑芥暟.h"
+#include "鍙嶅弽浣滃紛.h"
+#include "杩囨満鍣ㄧ爜.h"
+#include "娉ㄥ叆鍥炶皟.h"
+#include "閿紶妯℃嫙.h"
+#include "鍙ユ焺鎻愭潈.h"
+#include "鍐呮牳鍙戝寘.h"
+#include "杩涚▼鍥炶皟.h"
+#include "閫氳鍥炶皟.h"
 
-#include "资源文件\\VMProtect\\VMProtectDDK.h"
+#include "璧勬簮鏂囦欢\\VMProtect\\VMProtectDDK.h"
 
 extern "C" VOID DriverEntry();

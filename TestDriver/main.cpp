@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "driver.h"
 #include "dll.h"
 

@@ -1,4 +1,4 @@
-#include "Çý¶¯ºËÐÄ.h"
+#include "é©±åŠ¨æ ¸å¿ƒ.h"
 
 BOOLEAN SpoofEnable = FALSE;
 
@@ -286,20 +286,20 @@ auto DiskRcvDataCompRoutine(PDEVICE_OBJECT pDevice, PIRP IRP, LPVOID Context)->N
 
 				typedef struct _IDINFO
 				{
-					USHORT  wGenConfig;                 // WORD 0: »ù±¾ÐÅÏ¢×Ö
-					USHORT  wNumCyls;                   // WORD 1: ÖùÃæÊý
-					USHORT  wReserved2;                 // WORD 2: ±£Áô
-					USHORT  wNumHeads;                  // WORD 3: ´ÅÍ·Êý
-					USHORT  wReserved4;                 // WORD 4: ±£Áô
-					USHORT  wReserved5;                 // WORD 5: ±£Áô
-					USHORT  wNumSectorsPerTrack;        // WORD 6: Ã¿´ÅµÀÉÈÇøÊý
-					USHORT  wVendorUnique[3];           // WORD 7-9: ³§¼ÒÉè¶¨Öµ
-					CHAR    sSerialNumber[20];          // WORD 10-19:ÐòÁÐºÅ
-					USHORT  wBufferType;                // WORD 20: »º³åÀàÐÍ
-					USHORT  wBufferSize;                // WORD 21: »º³å´óÐ¡
-					USHORT  wECCSize;                   // WORD 22: ECCÐ£Ñé´óÐ¡
-					CHAR    sFirmwareRev[8];            // WORD 23-26: ¹Ì¼þ°æ±¾
-					CHAR    sModelNumber[40];           // WORD 27-46: ÄÚ²¿ÐÍºÅ
+					USHORT  wGenConfig;                 // WORD 0: åŸºæœ¬ä¿¡æ¯å­—
+					USHORT  wNumCyls;                   // WORD 1: æŸ±é¢æ•°
+					USHORT  wReserved2;                 // WORD 2: ä¿ç•™
+					USHORT  wNumHeads;                  // WORD 3: ç£å¤´æ•°
+					USHORT  wReserved4;                 // WORD 4: ä¿ç•™
+					USHORT  wReserved5;                 // WORD 5: ä¿ç•™
+					USHORT  wNumSectorsPerTrack;        // WORD 6: æ¯ç£é“æ‰‡åŒºæ•°
+					USHORT  wVendorUnique[3];           // WORD 7-9: åŽ‚å®¶è®¾å®šå€¼
+					CHAR    sSerialNumber[20];          // WORD 10-19:åºåˆ—å·
+					USHORT  wBufferType;                // WORD 20: ç¼“å†²ç±»åž‹
+					USHORT  wBufferSize;                // WORD 21: ç¼“å†²å¤§å°
+					USHORT  wECCSize;                   // WORD 22: ECCæ ¡éªŒå¤§å°
+					CHAR    sFirmwareRev[8];            // WORD 23-26: å›ºä»¶ç‰ˆæœ¬
+					CHAR    sModelNumber[40];           // WORD 27-46: å†…éƒ¨åž‹å·
 				} IDINFO, *PIDINFO;
 
 				PIDINFO pInfo = (PIDINFO)(((PSENDCMDOUTPARAMS)Request.Buffer)->bBuffer);

@@ -2,25 +2,25 @@
 
 #define POOL_TAG CLASS_TAG_LOCK_TRACKING
 
-#define ERROR_³É¹¦ 0xE0000000
-#define ERROR_Ê§°Ü 0xE0000001
+#define ERROR_æˆåŠŸ 0xE0000000
+#define ERROR_å¤±è´¥ 0xE0000001
 
-#define ERROR_ÎÞ·¨´ò¿ª½ø³Ì 0xE0000002
-#define ERROR_ÎÞÐ§µÄ¾ä±ú±í 0xE0000003
-#define ERROR_ÓÃ»§ÑéÖ¤Ê§°Ü 0xE0000004
-#define ERROR_ÄÚ´æÀàÐÍ²»·û 0xE0000005
-#define ERROR_³¬³öÄÚ´æ·¶Î§ 0xE0000006
-#define ERROR_Òþ²ØÄÚ´æÊ§°Ü 0xE0000007
-#define ERROR_²éÑ¯ÄÚ´æÊ§°Ü 0xE0000008
-#define ERROR_ÉêÇëÄÚ´æÊ§°Ü 0xE0000009
-#define ERROR_³¬³ö¶ÁÐ´×Ö½Ú 0xE000000A
-#define ERROR_·ÖÅäÄÚ´æÊ§°Ü 0xE000000B
-#define ERROR_ÎÞÐ§µÄ»º³åÇø 0xE000000C
-#define ERROR_ÎÞ·¨½áÊø×ÔÉí 0xE000000D
-#define ERROR_ÎÞ·¨Ê¶±ðÊý¾Ý 0xE000000E
-#define ERROR_½ø³ÌÎ»Êý´íÎó 0xE000000F
-#define ERROR_¶ÁÐ´µØÖ·´íÎó 0xE0000010
-#define ERROR_½Ù³ÖÏß³ÌÊ§°Ü 0xE0000011
+#define ERROR_æ— æ³•æ‰“å¼€è¿›ç¨‹ 0xE0000002
+#define ERROR_æ— æ•ˆçš„å¥æŸ„è¡¨ 0xE0000003
+#define ERROR_ç”¨æˆ·éªŒè¯å¤±è´¥ 0xE0000004
+#define ERROR_å†…å­˜ç±»åž‹ä¸ç¬¦ 0xE0000005
+#define ERROR_è¶…å‡ºå†…å­˜èŒƒå›´ 0xE0000006
+#define ERROR_éšè—å†…å­˜å¤±è´¥ 0xE0000007
+#define ERROR_æŸ¥è¯¢å†…å­˜å¤±è´¥ 0xE0000008
+#define ERROR_ç”³è¯·å†…å­˜å¤±è´¥ 0xE0000009
+#define ERROR_è¶…å‡ºè¯»å†™å­—èŠ‚ 0xE000000A
+#define ERROR_åˆ†é…å†…å­˜å¤±è´¥ 0xE000000B
+#define ERROR_æ— æ•ˆçš„ç¼“å†²åŒº 0xE000000C
+#define ERROR_æ— æ³•ç»“æŸè‡ªèº« 0xE000000D
+#define ERROR_æ— æ³•è¯†åˆ«æ•°æ® 0xE000000E
+#define ERROR_è¿›ç¨‹ä½æ•°é”™è¯¯ 0xE000000F
+#define ERROR_è¯»å†™åœ°å€é”™è¯¯ 0xE0000010
+#define ERROR_åŠ«æŒçº¿ç¨‹å¤±è´¥ 0xE0000011
 
 #define MiGetPxeAddress(BASE, VA) ((PMMPTE)BASE + ((ULONG32)(((ULONG64)(VA) >> 39) & 0x1FF)))
 #define MiGetPpeAddress(BASE, VA) ((PMMPTE)(((((ULONG64)VA & 0xFFFFFFFFFFFF) >> 30) << 3) + BASE))
