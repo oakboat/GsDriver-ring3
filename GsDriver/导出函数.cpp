@@ -1,4 +1,4 @@
-#include "Çý¶¯ºËÐÄ.h"
+#include "é©±åŠ¨æ ¸å¿ƒ.h"
 
 auto PsGetProcessImageFileName(PEPROCESS Process)->LPSTR {
 
@@ -285,7 +285,7 @@ auto ZwProtectWindow(HWND hWnd, UINT Flags)->BOOL {
 
 	if (_GreProtectSpriteContent == NULL) {
 
-		_GreProtectSpriteContent = (fn_GreProtectSpriteContent)(ResolveRelativeAddress(SearchSignForImage(GetModuleBaseForHash(DynamicData->WinVersion <= WINVER_7 ? 0x546E0672 : 0x3F5BCB23), DynamicData->WinVersion <= WINVER_7 ? "\xE8\xCC\xCC\xCC\xCC\x8B\xF8\x85\xC0\x75\x26" : "\xE8\xCC\xCC\xCC\xCC\x8B\xF8\x85\xC0\x75\x0E", "x????xxxxxx", 11), 1));
+		_GreProtectSpriteContent = (fn_GreProtectSpriteContent)(ResolveRelativeAddress(SearchSignForImage(GetModuleBaseForHash(DynamicData->WinVersion <= WINVER_7 ? 0x546E0672 : 0x3F5BCB23), DynamicData->WinVersion <= WINVER_7 ? "\xE8\xCC\xCC\xCC\xCC\x8B\xF8\x85\xC0\x75\x26" : "\xE8\xCC\xCC\xCC\xCC\x8B\xCC\x85\xC0\x75\x0E", "x????x?xxxx", 11), 1));
 	}
 
 	if (_GreProtectSpriteContent != NULL) {

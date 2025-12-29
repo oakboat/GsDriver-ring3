@@ -1,4 +1,4 @@
-﻿#include "driver.h"
+#include "driver.h"
 #include "loader.h"
 
 #define POOL_TAG CLASS_TAG_LOCK_TRACKING
